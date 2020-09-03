@@ -1,0 +1,43 @@
+﻿<Window x:Class="ValhCreationSuiteCharacterScheduleApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValhCreationSuiteCharacterScheduleApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="69*"/>
+            <ColumnDefinition Width="131*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FF6A83C5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="InputSleepLocation" HorizontalAlignment="Left" Margin="278,8,0,0" Text="input x,y,z" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBlock x:Name="SleepLocationLabel" HorizontalAlignment="Left" Margin="175,10,0,0" Text="Sleep Location" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBox x:Name="InputIdleLocation" HorizontalAlignment="Left" Margin="278,38,0,0" Text="0.0, 0.0, 0.0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBlock x:Name="IdleLocationLabel" HorizontalAlignment="Left" Margin="175,38,0,0" Text="Idle Location" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBox x:Name="InputWorkLocation" HorizontalAlignment="Left" Margin="278,71,0,0" Text="0.0, 0.0, 0.0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBlock x:Name="WorklocationLabel" HorizontalAlignment="Left" Margin="175,73,0,0" Text="Work Location" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="Guard" Content="Guard" HorizontalAlignment="Left" Margin="175,105,0,0" VerticalAlignment="Top" Click="Guard_Click" Grid.Column="1"/>
+        <Button x:Name="Farm" Content="Farm" HorizontalAlignment="Left" Margin="216,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.566,-1.65" Click="Farm_Click" Grid.Column="1"/>
+        <Button x:Name="Idle" Content="Idle" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top" Click="Idle_Click" Grid.Column="1"/>
+        <Button x:Name="Hammer" Content="Hammer" HorizontalAlignment="Left" Margin="279,105,0,0" VerticalAlignment="Top" Click="Hammer_Click" Grid.Column="1"/>
+        <Button x:Name="Monk" Content="Monk" HorizontalAlignment="Left" Margin="334,105,0,0" VerticalAlignment="Top" Click="Monk_Click" Grid.Column="1"/>
+        <TextBox x:Name="CharacterNumber" HorizontalAlignment="Left" Margin="30,107,0,0" Text="Input Char#" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="97"/>
+        <Button x:Name="NewScheduleButton" Content="Change Character" HorizontalAlignment="Left" Margin="148,105,0,0" VerticalAlignment="Top" Click="NewScheduleButton_Click" RenderTransformOrigin="0.307,0.198"/>
+        <TextBox x:Name="HeaderInfo" HorizontalAlignment="Left" Margin="30,10,0,0" Text="Now Serving Character ###" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="OccupationInfo" HorizontalAlignment="Left" Margin="30,33,0,0" Text="Occupation: " TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ApplyChanges" Content="Apply Changes" Margin="175,233,0,0" Click="ApplyChanges_Click" Grid.Column="1" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Width="83"/>
+        <TextBox x:Name="WorkWanderInput" HorizontalAlignment="Left" Margin="278,142,0,0" Text="Wander" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBlock x:Name="WorkWanderLabel" HorizontalAlignment="Left" Margin="175,143,0,0" Text="Wander Distance" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock x:Name="Status" HorizontalAlignment="Left" Margin="29,243,0,0" Text="Status" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="273"/>
+        <TextBox x:Name="OutputInput" HorizontalAlignment="Left" Margin="137,389,0,0" Text="\Users\13094\Desktop\Sched.txt" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="253" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="OutputLabel" HorizontalAlignment="Left" Margin="29,391,0,0" Text="Path and filename" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

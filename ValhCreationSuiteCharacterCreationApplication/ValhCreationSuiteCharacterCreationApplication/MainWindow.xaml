@@ -1,0 +1,69 @@
+﻿<Window x:Class="ValhCreationSuiteCharacterCreationApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValhCreationSuiteCharacterCreationApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FF6A83C5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock x:Name="IDLabel" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Character ID" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="IDInput" HorizontalAlignment="Left" Margin="143,8,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="NameLabel" HorizontalAlignment="Left" Margin="10,31,0,0" Text="Character Name" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="NameInput" HorizontalAlignment="Left" Margin="143,31,0,0" Text="Default Default" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="AgeLabel" HorizontalAlignment="Left" Margin="10,52,0,0" Text="Character Age" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="AgeInput" HorizontalAlignment="Left" Margin="143,54,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="GenderLabel" HorizontalAlignment="Left" Margin="10,73,0,0" Text="Character Gender" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="MaleButton" Content="Male" HorizontalAlignment="Left" Margin="143,77,0,0" VerticalAlignment="Top" Click="MaleButton_Click"/>
+        <Button x:Name="FemaleButton" Content="Female" HorizontalAlignment="Left" Margin="178,77,0,0" VerticalAlignment="Top" Click="FemaleButton_Click"/>
+        <TextBlock x:Name="SkinToneLabel" HorizontalAlignment="Left" Margin="10,102,0,0" Text="Character Skin Tone" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="BrownInput" Content="Brown" HorizontalAlignment="Left" Margin="143,102,0,0" VerticalAlignment="Top" Click="BrownInput_Click"/>
+        <Button x:Name="WhiteInput" Content="White" HorizontalAlignment="Left" Margin="185,102,0,0" VerticalAlignment="Top" Click="WhiteInput_Click"/>
+        <Button x:Name="TanInput" Content="Tan" HorizontalAlignment="Left" Margin="226,102,0,0" VerticalAlignment="Top" Click="TanInput_Click"/>
+        <Button x:Name="BlackInput" Content="Black" HorizontalAlignment="Left" Margin="253,102,0,0" VerticalAlignment="Top" Click="BlackInput_Click"/>
+        <TextBlock x:Name="CountryLabel" HorizontalAlignment="Left" Margin="10,123,0,0" Text="Country of Origin" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="EftonInput" Content="UFCT Efton" HorizontalAlignment="Left" Margin="143,127,0,0" VerticalAlignment="Top" Click="EftonInput_Click"/>
+        <Button x:Name="ValhInput" Content="Valh" HorizontalAlignment="Left" Margin="257,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.72,0.428" Click="ValhInput_Click"/>
+        <Button x:Name="AlchorInput" Content="Alchor" HorizontalAlignment="Left" Margin="534,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.779,0.672" Click="AlchorInput_Click"/>
+        <Button x:Name="TahidInput" Content="JCAS Tahid" HorizontalAlignment="Left" Margin="282,127,0,0" VerticalAlignment="Top" Click="TahidInput_Click"/>
+        <Button x:Name="ALchoranInput" Content="HSK W Alchoran" HorizontalAlignment="Left" Margin="495,127,0,0" VerticalAlignment="Top" Click="ALchoranInput_Click"/>
+        <Button x:Name="TuldoniaInput" Content="Tuldonia" HorizontalAlignment="Left" Margin="143,152,0,0" VerticalAlignment="Top" Click="TuldoniaInput_Click"/>
+        <Button x:Name="TendoronInput" Content="Tendoron" HorizontalAlignment="Left" Margin="198,152,0,0" VerticalAlignment="Top" Click="TendoronInput_Click"/>
+        <Button x:Name="UCSAlchorInput" Content="UCS ALchor" HorizontalAlignment="Left" Margin="591,127,0,0" VerticalAlignment="Top" Click="UCSAlchorInput_Click"/>
+        <Button x:Name="JerthroInput" Content="JCAS Jerthro" HorizontalAlignment="Left" Margin="348,127,0,0" VerticalAlignment="Top" Click="JerthroInput_Click"/>
+        <Button x:Name="Jarrono" Content="Jarrono" HorizontalAlignment="Left" Margin="291,152,0,0" VerticalAlignment="Top" Click="Jarrono_Click"/>
+        <Button x:Name="HabusInput" Content="JCAS Habus" HorizontalAlignment="Left" Margin="423,127,0,0" VerticalAlignment="Top" Click="HabusInput_Click"/>
+        <Button x:Name="UREAlchoronInput" Content="UR E Alchoron" HorizontalAlignment="Left" Margin="577,152,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="UCFTHelnaInput" Content="UCFT Helna" HorizontalAlignment="Left" Margin="211,127,0,0" VerticalAlignment="Top" Click="UCFTHelnaInput_Click"/>
+        <TextBlock x:Name="ProvinceLabel" HorizontalAlignment="Left" Margin="10,177,0,0" Text="Province of Residence" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="ShtaltonInput" Content="Shtalton" HorizontalAlignment="Left" Margin="143,177,0,0" VerticalAlignment="Top" Click="ShtaltonInput_Click"/>
+        <Button x:Name="HelpeliaInput" Content="Helpelia" HorizontalAlignment="Left" Margin="196,178,0,0" VerticalAlignment="Top" Click="HelpeliaInput_Click"/>
+        <Button x:Name="ShrionInput" Content="Shrion" HorizontalAlignment="Left" Margin="248,178,0,0" VerticalAlignment="Top" Click="ShrionInput_Click"/>
+        <Button x:Name="CebwonInput" Content="Cebwon" HorizontalAlignment="Left" Margin="143,202,0,0" VerticalAlignment="Top" Click="CebwonInput_Click"/>
+        <TextBlock x:Name="CityLabel" HorizontalAlignment="Left" Margin="10,202,0,0" Text="City of Residence" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="BlitzkrauInput" Content="Blitzkrau" HorizontalAlignment="Left" Margin="196,202,0,0" VerticalAlignment="Top" Click="BlitzkrauInput_Click"/>
+        <Button x:Name="EastpointeInput" Content="Eastpointe" HorizontalAlignment="Left" Margin="251,202,0,0" VerticalAlignment="Top" Click="EastpointeInput_Click"/>
+        <Button x:Name="HarbortownInput" Content="Harbortown" HorizontalAlignment="Left" Margin="315,203,0,0" VerticalAlignment="Top" Click="HarbortownInput_Click"/>
+        <Button x:Name="DovilleInput" Content="Doville" HorizontalAlignment="Left" Margin="388,203,0,0" VerticalAlignment="Top" Click="DovilleInput_Click"/>
+        <Button x:Name="WildsInput" Content="Wilds" HorizontalAlignment="Left" Margin="433,202,0,0" VerticalAlignment="Top" Click="WildsInput_Click"/>
+        <TextBlock x:Name="OccupationLabel" HorizontalAlignment="Left" Margin="10,223,0,0" Text="Occupation" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="OccupationInput" HorizontalAlignment="Left" Margin="143,227,0,0" Text="Default" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="FPLabel" HorizontalAlignment="Left" Margin="10,244,0,0" Text="Female Parent" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="FPInput" HorizontalAlignment="Left" Margin="143,250,0,0" Text="mother" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="MPLabel" HorizontalAlignment="Left" Margin="324,250,0,0" Text="Male Parent" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="MPInput" HorizontalAlignment="Left" Margin="456,252,0,0" Text="father" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="DisplayText" HorizontalAlignment="Left" Margin="10,288,0,0" Text="Current Character Stats: " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="DisplayModular" HorizontalAlignment="Left" Margin="142,288,0,0" Text="default" TextWrapping="Wrap" VerticalAlignment="Top" Width="605"/>
+        <Button x:Name="CheckButton" Content="Check" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top" Click="CheckButton_Click"/>
+        <TextBlock x:Name="PathDisplay" HorizontalAlignment="Left" Margin="349,18,0,0" Text="Output Filepath" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.155,-1.18"/>
+        <TextBox x:Name="OutputFilepathInput" HorizontalAlignment="Left" Margin="444,18,0,0" Text="\Users\13094\Desktop\CharNames.txt" TextWrapping="Wrap" VerticalAlignment="Top" Width="329"/>
+        <Button x:Name="Apply" Content="Apply Changes / Add Character" HorizontalAlignment="Left" Margin="10,356,0,0" VerticalAlignment="Top" Click="Apply_Click"/>
+
+    </Grid>
+</Window>
