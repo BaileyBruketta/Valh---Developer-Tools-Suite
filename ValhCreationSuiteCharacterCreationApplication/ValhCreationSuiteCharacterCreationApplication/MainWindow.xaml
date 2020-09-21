@@ -47,11 +47,11 @@
         <Button x:Name="ShrionInput" Content="Shrion" HorizontalAlignment="Left" Margin="248,178,0,0" VerticalAlignment="Top" Click="ShrionInput_Click"/>
         <Button x:Name="CebwonInput" Content="Cebwon" HorizontalAlignment="Left" Margin="143,202,0,0" VerticalAlignment="Top" Click="CebwonInput_Click"/>
         <TextBlock x:Name="CityLabel" HorizontalAlignment="Left" Margin="10,202,0,0" Text="City of Residence" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button x:Name="BlitzkrauInput" Content="Blitzkrau" HorizontalAlignment="Left" Margin="196,202,0,0" VerticalAlignment="Top" Click="BlitzkrauInput_Click"/>
-        <Button x:Name="EastpointeInput" Content="Eastpointe" HorizontalAlignment="Left" Margin="251,202,0,0" VerticalAlignment="Top" Click="EastpointeInput_Click"/>
-        <Button x:Name="HarbortownInput" Content="Harbortown" HorizontalAlignment="Left" Margin="315,203,0,0" VerticalAlignment="Top" Click="HarbortownInput_Click"/>
-        <Button x:Name="DovilleInput" Content="Doville" HorizontalAlignment="Left" Margin="388,203,0,0" VerticalAlignment="Top" Click="DovilleInput_Click"/>
-        <Button x:Name="WildsInput" Content="Wilds" HorizontalAlignment="Left" Margin="433,202,0,0" VerticalAlignment="Top" Click="WildsInput_Click"/>
+        <Button x:Name="BlitzkrauInput" Content="Blitzkrau" HorizontalAlignment="Left" Margin="190,202,0,0" VerticalAlignment="Top" Click="BlitzkrauInput_Click"/>
+        <Button x:Name="EastpointeInput" Content="Eastpointe" HorizontalAlignment="Left" Margin="239,203,0,0" VerticalAlignment="Top" Click="EastpointeInput_Click"/>
+        <Button x:Name="HarbortownInput" Content="Harbortown" HorizontalAlignment="Left" Margin="298,203,0,0" VerticalAlignment="Top" Click="HarbortownInput_Click"/>
+        <Button x:Name="DovilleInput" Content="Doville" HorizontalAlignment="Left" Margin="366,203,0,0" VerticalAlignment="Top" Click="DovilleInput_Click"/>
+        <Button x:Name="WildsInput" Content="Wilds" HorizontalAlignment="Left" Margin="406,203,0,0" VerticalAlignment="Top" Click="WildsInput_Click"/>
         <TextBlock x:Name="OccupationLabel" HorizontalAlignment="Left" Margin="10,223,0,0" Text="Occupation" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="OccupationInput" HorizontalAlignment="Left" Margin="143,227,0,0" Text="Default" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="FPLabel" HorizontalAlignment="Left" Margin="10,244,0,0" Text="Female Parent" TextWrapping="Wrap" VerticalAlignment="Top"/>
@@ -64,6 +64,29 @@
         <TextBlock x:Name="PathDisplay" HorizontalAlignment="Left" Margin="349,18,0,0" Text="Output Filepath" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.155,-1.18"/>
         <TextBox x:Name="OutputFilepathInput" HorizontalAlignment="Left" Margin="444,18,0,0" Text="\Users\13094\Desktop\CharNames.txt" TextWrapping="Wrap" VerticalAlignment="Top" Width="329"/>
         <Button x:Name="Apply" Content="Apply Changes / Add Character" HorizontalAlignment="Left" Margin="10,356,0,0" VerticalAlignment="Top" Click="Apply_Click"/>
+        <Button x:Name="FalessaInput" Content="Falessa" HorizontalAlignment="Left" Margin="439,203,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.01,-0.148" Click="FalessaInput_Click"/>
+        <Button x:Name="DackleroyInput" Content="Dackleroy" HorizontalAlignment="Left" Margin="291,178,0,0" VerticalAlignment="Top" Width="58" Click="DackleroyInput_Click"/>
+        <Button x:Name="EastWindInput" Content="Eastwind" HorizontalAlignment="Left" Margin="354,178,0,0" VerticalAlignment="Top" Width="54" Click="EastWindInput_Click"/>
+        <Button x:Name="CitySpeakInput" Content="CitySpeak" HorizontalAlignment="Left" Margin="413,178,0,0" VerticalAlignment="Top" Click="CitySpeakInput_Click"/>
+        <Button x:Name="GroveInput" Content="Grove" HorizontalAlignment="Left" Margin="474,178,0,0" VerticalAlignment="Top" Click="GroveInput_Click"/>
+        <Button x:Name="FalkisCoreInput" Content="FalkisCore" HorizontalAlignment="Left" Margin="513,178,0,0" VerticalAlignment="Top" Click="FalkisCoreInput_Click"/>
+        <Button x:Name="RiverWaterInput" Content="RiverWater" HorizontalAlignment="Left" Margin="480,203,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="OasisInput" Content="Oasis" HorizontalAlignment="Left" Margin="544,202,0,0" VerticalAlignment="Top" Click="OasisInput_Click"/>
+        <Button x:Name="DorsalVillageInput" Content="DorsalVillage" HorizontalAlignment="Left" Margin="577,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.353,-0.449" Click="DorsalVillageInput_Click"/>
+        <Button x:Name="SouthvileInput" Content="South Ville" HorizontalAlignment="Left" Margin="650,202,0,0" VerticalAlignment="Top" Click="SouthvileInput_Click"/>
+        <Button x:Name="BergIslandInput" Content="Berg Island" HorizontalAlignment="Left" Margin="270,223,0,0" VerticalAlignment="Top" Click="BergIslandInput_Click"/>
+        <Button x:Name="MetropolisInput" Content="Metropolis" HorizontalAlignment="Left" Margin="333,223,0,0" VerticalAlignment="Top" Click="MetropolisInput_Click"/>
+        <Button x:Name="SkribCityInput" Content="Skrib City" HorizontalAlignment="Left" Margin="394,223,0,0" VerticalAlignment="Top" Click="SkribCityInput_Click"/>
+        <Button x:Name="FarplainInput" Content="Farplain" HorizontalAlignment="Left" Margin="448,223,0,0" VerticalAlignment="Top" Click="FarplainInput_Click"/>
+        <Button x:Name="Honeyville" Content="Honeyville" HorizontalAlignment="Left" Margin="492,223,0,0" VerticalAlignment="Top" Click="Honeyville_Click"/>
+        <Button x:Name="ShackleheartInput" Content="Shackleheart" HorizontalAlignment="Left" Margin="553,222,0,0" VerticalAlignment="Top" Click="ShackleheartInput_Click"/>
+        <Button x:Name="GreatWraithInput" Content="Great Wraith" HorizontalAlignment="Left" Margin="624,222,0,0" VerticalAlignment="Top" Click="GreatWraithInput_Click"/>
+        <Button x:Name="HighPointeInput" Content="Highpointe" HorizontalAlignment="Left" Margin="711,203,0,0" VerticalAlignment="Top" Click="HighPointeInput_Click"/>
+        <Button x:Name="FortHeadsworthInput" Content="Fort Headsworth" HorizontalAlignment="Left" Margin="695,223,0,0" VerticalAlignment="Top" Click="FortHeadsworthInput_Click"/>
+        <Button x:Name="BowsmithInput" Content="Bowsmith" HorizontalAlignment="Left" Margin="594,243,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.353,-0.8" Click="BowsmithInput_Click"/>
+        <Button x:Name="KuplineInput" Content="Kupline" HorizontalAlignment="Left" Margin="650,244,0,0" VerticalAlignment="Top" Click="KuplineInput_Click"/>
+        <Button x:Name="CrowCityInput" Content="Crow City" HorizontalAlignment="Left" Margin="695,244,0,0" VerticalAlignment="Top" Click="CrowCityInput_Click"/>
+        <Button x:Name="LionsToothInput" Content="Lion's Tooth" HorizontalAlignment="Left" Margin="594,263,0,0" VerticalAlignment="Top" Click="LionsToothInput_Click"/>
 
     </Grid>
 </Window>

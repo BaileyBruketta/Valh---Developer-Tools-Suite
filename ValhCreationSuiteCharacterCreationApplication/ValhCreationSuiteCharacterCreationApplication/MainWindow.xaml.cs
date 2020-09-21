@@ -82,7 +82,7 @@ namespace ValhCreationSuiteCharacterCreationApplication
         private void FemaleButton_Click(object sender, RoutedEventArgs e){CharacterGender = "Female"; UpdateCheck();}
         private void WhiteInput_Click(object sender, RoutedEventArgs e){CharacterSkinTone = "White"; UpdateCheck();}
         private void BrownInput_Click(object sender, RoutedEventArgs e){CharacterSkinTone = "Brown"; UpdateCheck();}
-        private void TanInput_Click(object sender, RoutedEventArgs e){CharacterSkinTone = "Brown"; UpdateCheck();}
+        private void TanInput_Click(object sender, RoutedEventArgs e){CharacterSkinTone = "Tan"; UpdateCheck();}
         private void BlackInput_Click(object sender, RoutedEventArgs e){CharacterSkinTone = "Brown"; UpdateCheck();}
 
         private void EftonInput_Click(object sender, RoutedEventArgs e){CountryOfOrigin = "United Federation of Communal Tuldonian States (Efton)"; UpdateCheck();}
@@ -108,12 +108,77 @@ namespace ValhCreationSuiteCharacterCreationApplication
         private void HarbortownInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "Harbortown"; UpdateCheck();}
         private void DovilleInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "Doville"; UpdateCheck();}
         private void WildsInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "Wilds"; UpdateCheck();}
-
+        private void FalessaInput_Click(object sender, RoutedEventArgs e) { CityOfResidence = "Falessa"; UpdateCheck(); }
         private void CheckButton_Click(object sender, RoutedEventArgs e)
         {
             UpdateCheck(); 
         }
 
-    
+        private void DackleroyInput_Click(object sender, RoutedEventArgs e){ProvinceOfResidence = "Dackleroy"; UpdateCheck();}
+        private void EastWindInput_Click(object sender, RoutedEventArgs e){ProvinceOfResidence = "EastWind"; UpdateCheck();}
+        private void CitySpeakInput_Click(object sender, RoutedEventArgs e){ProvinceOfResidence = "CitySpeak"; UpdateCheck();}
+        private void FalkisCoreInput_Click(object sender, RoutedEventArgs e){ProvinceOfResidence = "FalkisCore"; UpdateCheck();}
+        private void GroveInput_Click(object sender, RoutedEventArgs e){ProvinceOfResidence = "Grove"; UpdateCheck();}
+
+        private void SouthvileInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "SouthVille"; UpdateCheck();}
+        private void HighPointeInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "HighPointe"; UpdateCheck();}
+
+        private void BergIslandInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "Berg Island"; UpdateCheck();}
+
+        private void MetropolisInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "Metropolis"; UpdateCheck();}
+
+        private void SkribCityInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "Skrib City"; UpdateCheck();}
+
+        private void FarplainInput_Click(object sender, RoutedEventArgs e){CityOfResidence = "Farplain"; UpdateCheck();}
+
+        private void Honeyville_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Honeyville"; UpdateCheck();
+        }
+
+        private void ShackleheartInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Shackleheart"; UpdateCheck();
+        }
+
+        private void GreatWraithInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Great Wraith"; UpdateCheck();
+        }
+
+        private void FortHeadsworthInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Fort Headsworth"; UpdateCheck();
+        }
+
+        private void BowsmithInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Bowsmith"; UpdateCheck();
+        }
+
+        private void KuplineInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Kupline"; UpdateCheck();
+        }
+
+        private void CrowCityInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "CrowCity"; UpdateCheck();
+        }
+
+        private void LionsToothInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Lion's Tooth"; UpdateCheck();
+        }
+
+        private void OasisInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Oasis"; UpdateCheck();
+        }
+
+        private void DorsalVillageInput_Click(object sender, RoutedEventArgs e)
+        {
+            CityOfResidence = "Dorsal Village"; UpdateCheck();
+        }
     }
 }
